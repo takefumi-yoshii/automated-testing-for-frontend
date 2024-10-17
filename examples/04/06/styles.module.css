@@ -1,0 +1,23 @@
+.form {
+  color: #888;
+  padding: 12px;
+}
+
+.name {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.name input[type="text"] {
+  margin-top: .4em;
+}
+
+.agreement {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.agreement .switch {
+  margin-left: .8em;
+}
