@@ -25,7 +25,7 @@ export const ValidationError: Story = {
     await user.click(canvas.getByRole("switch"));
     await user.click(canvas.getByRole("button"));
     await expect(
-      canvas.getByText("名前を入力してください")
+      canvas.getByText("名前を入力してください"),
     ).toBeInTheDocument();
   },
 };

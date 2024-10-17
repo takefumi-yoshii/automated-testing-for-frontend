@@ -9,7 +9,7 @@ type Props = {
 
 export const Button = forwardRef<HTMLButtonElement, Props>(function ButtonBase(
   { className, theme = "dark", variant = "medium", ...props },
-  ref
+  ref,
 ) {
   return (
     <button
